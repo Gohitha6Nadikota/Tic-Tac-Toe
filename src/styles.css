@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+  list-style-type: none;
+}
+.steps
+{
+  background-color: rgb(157, 188, 188);
+  border-radius:5px ;
+  width: 155px;
+  height: 55px;
+  margin-left: 120px;
+  margin-bottom: 7px;
+}
+li{
+  list-style-type: none;
+}
+.green
+{
+  background-color: rgb(110, 220, 110);
+  font-size: larger;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 194px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 194px;
+  background-color: bisque;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+.game {
+  display: flex;
+  margin-top: 200px;
+  margin-left: 400px;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
